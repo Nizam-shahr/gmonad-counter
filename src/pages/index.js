@@ -15,7 +15,7 @@ export default function Home() {
   const [playSound, setPlaySound] = useState(true);
 
   const appUrl = process.env.NODE_ENV === 'production'
-    ? 'https://gmonad-counter.vercel.app'
+    ? 'https://gmonad-counter-one.vercel.app'
     : 'http://localhost:3000';
 
   const funFacts = [
